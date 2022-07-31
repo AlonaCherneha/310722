@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SheCodes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <style>
+        body {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 60px;
+        }
+
+        h3 {
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+
+        div {
+            display: block;
+        }
+
+        .navigator {
+            margin: 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            text-transform: capitalize;
+            display: flex;
+            margin-top: 40px;
+            justify-content: center;
+        }
+
+        .navigator a {
+            margin: 20px;
+        }
+
+        :root {
+            --primary-color: #6c63ff;
+            --secondary-color: #f5f2fe;
+            --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .about-link {
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            padding: 20px 15px;
+            border-radius: 4px;
+        }
+
+        .contact-link {
+            background: var(--primary-color);
+            box-shadow: var(--box-shadow);
+            color: white;
+            padding: 20px 15px;
+            border-radius: 4px;
+        }
+
+        .primary-link {
+            border-radius: 4px;
+            padding: 20px 15px;
+            text-decoration: none;
+            text-transform: capitalize;
+            background: var(--primary-color);
+            box-shadow: var(--box-shadow);
+            color: white;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Alona Cherneha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine">About Ukraine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">About me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <h1 class="me" text-center>
+        👋 Hi I am
+    </h1>
+    <h2 class="name" text-center>
+        Alona Cherneha
+    </h2>
+    <h3 class="about" text-center>
+        I`ve been learning coding with SheCodes
+    </h3>
+    <div class="navigator">
+        <a href="contact.html" class="contact-link border border-1 text-white text-center m-5">Contact me</a>
+        <a href="contact.html" class="about-link border border-1 text-blue text-center m-5">About me
+        </a>
+    </div>
+    <div class="cont">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/yoga.jpg" class="img-fluid rounded" />
+            </div>
+            <div class="col-md-6">
+                <h2 class="mb-3">Yoga app</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                    quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                    eos eveniet alias temporibus deserunt veritatis minima fugiat
+                    explicabo eum dolore.
+                </p>
+                <div class="mt-5">
+                    <a href="#" class="primary-link"> Launch Yoga App </a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h2 class="mb-3">Weather app</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                        quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                        eos eveniet alias temporibus deserunt veritatis minima fugiat
+                        explicabo eum dolore.
+                    </p>
+                    <div class="mt-5">
+                        <a href="#" class="primary-link"> Launch Weather App </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/weather.jpg" class="img-fluid rounded" />
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/yogurt.jpg" class="img-fluid rounded" />
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-3">Yogurt app</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                            eos eveniet alias temporibus deserunt veritatis minima fugiat
+                            explicabo eum dolore.
+                        </p>
+                        <div class="mt-5">
+                            <a href="#" class="primary-link"> Launch Yogurt App </a>
+                        </div>
+                    </div>
+</body>
+
+</html>
